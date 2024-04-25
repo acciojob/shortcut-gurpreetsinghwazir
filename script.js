@@ -1,6 +1,5 @@
 function shortcut(s1, s2) {
- 
-    let s1Str= s1[0] ;
+     let s1Str= s1[0] ;
     let s2Str= s2[0] ;
     
     if(s1.length == 0 | s2.length  == 0){
@@ -9,7 +8,7 @@ function shortcut(s1, s2) {
         console.log(s1Str + s2Str);    
     }
  }
-}
+
 
 // Do not change the code below.
 const s1 = prompt("Enter s1:");
