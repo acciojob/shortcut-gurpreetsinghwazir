@@ -3,9 +3,9 @@ function shortcut(s1, s2) {
     let s2Str= s2[0] ;
     
     if(s1.length == 0 | s2.length  == 0){
-        console.log(`""`);
+        return(`""`);
     }else{
-        console.log(s1Str + s2Str);    
+        return(s1Str + s2Str);    
     }
  }
 
